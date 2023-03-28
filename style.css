@@ -24,13 +24,20 @@ html, body {
     width: 100%;
 }
 
-.inner-picture-text {
-    color: white;
-    background-color: green;
-    fill-opacity: 10%;
+.inner-text {
+    opacity: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    font-family: Anton;
+    letter-spacing: 3px;
+}
+
+.inner-picture-div {
+    background-color: rgba(0, 0, 0, .5);
     position: absolute;
-    top: 50%;
-    left: 15%;
+    top: 40%;
+    width: 40%;
+    text-align: center;
 }
 
 .right-side {
