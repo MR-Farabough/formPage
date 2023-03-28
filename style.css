@@ -4,15 +4,9 @@
     border: 0;
 }
 
-:root {
- --orange-color: rgb(176, 39, 5);
- --light-orange: rgb(240, 174, 93);
- --green: rgb(0, 23, 3);
-}
-
 html, body {
     height: 100vh;
-    background-color: var(--green);
+    background-color: rgb(238, 238, 238);
     min-width: 1108px;
 }
 
@@ -54,21 +48,19 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 25%;
-    width: 95%;
-    border-radius: 10px;
-    border: 1px solid black;
-    box-shadow: 10px 5px 5px var(--orange-color);
-    background-color: var(--light-orange);
+    height: 30%;
+    width: 100%;
+    box-shadow: 1px 3px 5px grey;
+    background-color: white;
     font-family: Comfortaa;
 }
 
 .hero-text {
     font-family: Comfortaa;
-    font-size: 50px;
+    font-size: 30px;
     position: relative;
     top: 15px;
-    left: 15%;
+    left: 25%;
     height: auto;
 }
 
@@ -78,7 +70,7 @@ html, body {
 }
 
 .ahaa {
-    margin-top: 5px;
+    margin-top: 35px;
 }
 
 .card {
@@ -89,7 +81,7 @@ html, body {
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 50px;
+    height: fit-content;
     width: 200px;
     size: 50px;
 }
@@ -99,24 +91,24 @@ html, body {
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    margin-left: 15px;
     width: 60%;
 }
 
 input {
     border:1px solid rgba(128, 128, 128, .5);
     border-radius: 5px;
-    width: 200px
+    width: 200px;
+    height: 30px;
 }
 
 button {
     font-family: Comfortaa;
-    box-shadow: 3px 3px 3px var(--orange-color);
-    font-size: 30px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 15px;
     border-radius: 5px;
-    background-color: var(--light-orange);
-    border: 2px solid var(--orange-color);
+    color: white;
+    width: 250px;
+    background-color: #4a5f37;
 }
 
 .below-form {
@@ -124,12 +116,12 @@ button {
     width: 300px;
     flex-wrap: wrap;
     justify-content: flex-start;
-    color: var(--orange-color);
-    margin-top: 35px;
+    margin-top: 80px;
+    margin-left: 60px;
 }
 
 .login {
-    color: var(--light-orange);
+    color: #4a5f37;
 }
 
 #password:invalid,
