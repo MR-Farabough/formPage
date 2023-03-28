@@ -25,6 +25,11 @@ html, body {
     width: 40%;
 }
 
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
 .grandmas-Tree {
     height: auto;
     width: 100%;
