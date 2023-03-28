@@ -128,3 +128,8 @@ button {
 #password-verify:invalid {
     border: 2px solid red;
 }
+
+#password:valid,
+#password-verify:valid {
+    border: 2px solid blue;
+}
