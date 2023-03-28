@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    height: 100vh
+}
+
+.main-container {
+    display: flex;
+    flex: auto;
+    height: 100%;
+}
+
+.left-side {
+    display: flex;
+    width: 40%;
+}
+
+.grandmas-Tree {
+    height: auto;
+    width: 100%;
+}
+
+.inner-picture-text {
+    color: white;
+    background-color: green;
+    fill-opacity: 10%;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+
+.right-side {
+    display: flex;
+    width: 60%;
+}
