@@ -48,12 +48,14 @@ html, body {
 
 #form-card {
     display: flex;
+    flex-direction: column;
     height: 50%;
     width: 95%;
     border-radius: 10px;
     border: 1px solid black;
     box-shadow: 10px 5px 5px var(--orange-color);
     background-color: var(--light-orange);
+    font-family: Comfortaa;
 }
 
 .hero-text {
