@@ -7,11 +7,13 @@
 :root {
  --orange-color: rgb(176, 39, 5);
  --light-orange: rgb(240, 174, 93);
+ --green: rgb(0, 23, 3);
 }
 
 html, body {
     height: 100vh;
-    background-color: rgb(0, 23, 3);
+    background-color: var(--green);
+    min-width: 1100px;
 }
 
 .main-container {
@@ -41,6 +43,7 @@ html, body {
     font-size: 65px;
     font-family: Anton;
     letter-spacing: 3px;
+    min-width: 430px;
 }
 
 .inner-picture-div {
@@ -49,6 +52,7 @@ html, body {
     top: 40%;
     width: 39.8%;
     text-align: center;
+    min-width: 438px;
 }
 
 #form-card {
@@ -68,6 +72,7 @@ html, body {
     font-family: Comfortaa;
     font-size: 50px;
     position: relative;
+    top: 15px;
     left: 15%;
     height: auto;
 }
@@ -102,6 +107,26 @@ input {
     border:1px solid rgba(128, 128, 128, .5);
     border-radius: 5px;
     width: 200px
+}
+
+button {
+    font-family: Comfortaa;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--light-orange);
+    border: 2px solid var(--orange-color);
+}
+
+.below-form {
+    display: flex;
+    flex-direction: column;
+    color: var(--orange-color);
+    margin-top: 25px;
+}
+
+.login {
+    color: var(--light-orange);
 }
 
 #password:invalid,
