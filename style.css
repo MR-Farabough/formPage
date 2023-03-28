@@ -4,8 +4,14 @@
     border: 0;
 }
 
+:root {
+ --orange-color: rgb(176, 39, 5);
+ --light-orange: rgb(240, 174, 93);
+}
+
 html, body {
-    height: 100vh
+    height: 100vh;
+    background-color: rgb(0, 23, 3);
 }
 
 .main-container {
@@ -36,11 +42,28 @@ html, body {
     background-color: rgba(0, 0, 0, .5);
     position: absolute;
     top: 40%;
-    width: 40%;
+    width: 39.8%;
     text-align: center;
+}
+
+#form-card {
+    display: flex;
+    height: 50%;
+    width: 95%;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px var(--orange-color);
+    background-color: var(--light-orange);
+}
+
+.hero-text {
+    font-family: Comfortaa;
 }
 
 .right-side {
     display: flex;
+    border: 3px solid rgba(176, 39, 5, 0.766);
+    justify-content: center;
+    align-items: center;
     width: 60%;
 }
