@@ -13,7 +13,7 @@
 html, body {
     height: 100vh;
     background-color: var(--green);
-    min-width: 1100px;
+    min-width: 1108px;
 }
 
 .main-container {
@@ -25,11 +25,6 @@ html, body {
 .left-side {
     display: flex;
     width: 40%;
-}
-
-.right-side {
-    display: flex;
-    flex-direction: column;
 }
 
 .grandmas-Tree {
@@ -82,6 +77,10 @@ html, body {
     flex-wrap: wrap;
 }
 
+.ahaa {
+    margin-top: 5px;
+}
+
 .card {
     display: flex;
     margin: 55px;
@@ -97,9 +96,10 @@ html, body {
 
 .right-side {
     display: flex;
-    border: 3px solid rgba(176, 39, 5, 0.766);
+    flex-direction: column;
+    align-items: start;
     justify-content: center;
-    align-items: center;
+    margin-left: 15px;
     width: 60%;
 }
 
@@ -111,6 +111,7 @@ input {
 
 button {
     font-family: Comfortaa;
+    box-shadow: 3px 3px 3px var(--orange-color);
     font-size: 30px;
     padding: 10px;
     border-radius: 5px;
@@ -120,9 +121,11 @@ button {
 
 .below-form {
     display: flex;
-    flex-direction: column;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     color: var(--orange-color);
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .login {
