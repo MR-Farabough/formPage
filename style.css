@@ -48,8 +48,9 @@ html, body {
 
 #form-card {
     display: flex;
-    flex-direction: column;
-    height: 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 25%;
     width: 95%;
     border-radius: 10px;
     border: 1px solid black;
@@ -60,6 +61,28 @@ html, body {
 
 .hero-text {
     font-family: Comfortaa;
+    font-size: 50px;
+    position: relative;
+    left: 15%;
+    height: auto;
+}
+
+#inputs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    margin: 55px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 200px;
+    size: 50px;
 }
 
 .right-side {
@@ -68,4 +91,15 @@ html, body {
     justify-content: center;
     align-items: center;
     width: 60%;
+}
+
+input {
+    border:1px solid rgba(128, 128, 128, .5);
+    border-radius: 5px;
+    width: 200px
+}
+
+#password:invalid,
+#password-verify:invalid {
+    border: 2px solid red;
 }
