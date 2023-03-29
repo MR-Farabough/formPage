@@ -17,44 +17,50 @@
         <div class="left-side">
             <img src="imgs/grandmas-Tree.JPG" class="grandmas-Tree">
             <div class="inner-picture-div">
-                <h3 class="inner-text"><🌲/></h3>
+                <h3 class="inner-text">
+                    <🌲 />
+                </h3>
             </div>
         </div>
         <div class="right-side">
-            <form id="form-card" action="#" method="get">
+            <form id="form-card" action="/" method="get">
                 <div>
                     <label type="title" class="hero-text">Sign-up Form</label>
                 </div>
                 <div id="inputs">
                     <div class="card">
                         <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" required></input>
+                        <input type="text" id="first-name" name="name"></input>
                     </div>
                     <div class="card">
                         <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" required></input>
+                        <input type="text" id="last-name" name="last-name"></input>
                     </div>
                     <div class="card">
                         <label for="email">Email</label>
-                        <input type="email" id="email"></input>
+                        <input type="email" id="email" name="email"></input>
                     </div>
                     <div class="card">
                         <label for="phone">Phone</label>
-                        <input type="tel" id="phone" name="phone" placeholder="123-456-7890"></input>
+                        <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                     </div>
                     <div class="card">
                         <label for="password">Password</label>
-                        <input type="password" id="password" required></input>
+                        <input type="password" id="password" name="password"
+                            placeholder="Greater than 5 characters"></input>
+                        <p class="error-message"></p>
                     </div>
                     <div class="card">
                         <label for="password-verify">Verify Password</label>
-                        <input type="password" id="password-verify" required></input>
+                        <input type="password" id="password-verify" name="password-verify"
+                            placeholder="Greater than 5 characters"></input>
                     </div>
                 </div>
             </form>
             <div class="below-form">
-                <button type="reset" class="submit-btn" form="form-card">Create Account</button>
-                <h3 class="ahaa">Already have an account? <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="login">Login in</a></h3>
+                <button type="submit" class="submit-btn" form="form-card">Create Account</button>
+                <h3 class="ahaa">Already have an account? <a target="_blank"
+                        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="login">Login in</a></h3>
             </div>
         </div>
     </div>

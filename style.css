@@ -111,6 +111,10 @@ button {
     background-color: #4a5f37;
 }
 
+button:hover {
+    box-shadow: 5px 5px 5px grey;
+}
+
 .below-form {
     display: flex;
     width: 300px;
@@ -120,15 +124,23 @@ button {
     margin-left: 60px;
 }
 
+.error-message {
+    margin-top: 10px;
+    color: red;
+}
+
 .login {
     color: #4a5f37;
 }
 
+#first-name:invalid,
+#last-name:invalid,
 #password:invalid,
 #password-verify:invalid {
     border: 2px solid red;
 }
-
+#first-name:valid,
+#last-name:valid,
 #password:valid,
 #password-verify:valid {
     border: 2px solid blue;
