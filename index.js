@@ -9,6 +9,8 @@ lastName.setCustomValidity('Invalid field.');
 password.setCustomValidity('Invalid field.');
 rePass.setCustomValidity('Invalid field.');
 
+alert("ATTENTION: If you are using this on github pages DO NOT HIT SUBMIT. It will take you to a 404 error")
+
 firstName.addEventListener('input', () => {
     if (firstName.value.length < 3) {
         firstName.setCustomValidity('Invalid field.');
